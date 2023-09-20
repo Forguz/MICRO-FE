@@ -1,44 +1,50 @@
 <mxfile host="65bd71144e">
     <diagram id="8ZukWIMWjDDsPzkLMwDS" name="Page-1">
-        <mxGraphModel dx="1116" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="819" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="50" y="60" width="200" height="240" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Home App (1.0.1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="5" value="Home App (1.0.1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="70" y="70" width="185" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="JyFHoJ5ReKWPPcDuBnhH-13" style="edgeStyle=none;html=1;fontSize=20;" edge="1" parent="1" source="6" target="12">
+                <mxCell id="JyFHoJ5ReKWPPcDuBnhH-13" style="edgeStyle=none;html=1;fontSize=20;" parent="1" source="6" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="JyFHoJ5ReKWPPcDuBnhH-14" style="edgeStyle=none;html=1;fontSize=20;" edge="1" parent="1" source="6" target="13">
+                <mxCell id="JyFHoJ5ReKWPPcDuBnhH-14" style="edgeStyle=none;html=1;fontSize=20;" parent="1" source="6" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="PDP App (1.0.0)" style="whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="6" value="PDP App (1.0.0)" style="whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="470" y="60" width="200" height="240" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="12" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="90" y="140" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="13" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="90" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3IrDUrg9vNS1QXR3YjBG-14" value="If the header have some deps, like moment or date-fns, the module federation bring them together. But only when the header is imported." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="3IrDUrg9vNS1QXR3YjBG-14" value="If the header have some deps, like moment or date-fns, the module federation bring them together. But only when the header is imported." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="316.25" y="480" width="233.75" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="3IrDUrg9vNS1QXR3YjBG-17" value="Module federation must be deployed in a static asset store like S3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="3IrDUrg9vNS1QXR3YjBG-17" value="Module federation must be deployed in a static asset store like S3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="550" y="480" width="220" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="3IrDUrg9vNS1QXR3YjBG-18" value="&lt;span style=&quot;&quot;&gt;With this module, you can fetch the components from other applications just by having their remote, instead of needing to create other complicated stuff, like an NPM lib or a SHIM lib in S3.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="3IrDUrg9vNS1QXR3YjBG-18" value="&lt;span style=&quot;&quot;&gt;With this module, you can fetch the components from other applications just by having their remote, instead of needing to create other complicated stuff, like an NPM lib or a SHIM lib in S3.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="50" y="480" width="240" height="215" as="geometry"/>
                 </mxCell>
-                <mxCell id="3IrDUrg9vNS1QXR3YjBG-19" value="Module Federation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
+                <mxCell id="3IrDUrg9vNS1QXR3YjBG-19" value="Module Federation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=40;" parent="1" vertex="1">
                     <mxGeometry x="50" y="370" width="200" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="3IrDUrg9vNS1QXR3YjBG-20" value="Can use servor to emulate the deploy. PORT=3000 npx servor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="3IrDUrg9vNS1QXR3YjBG-20" value="Can use servor to emulate the deploy. PORT=3000 npx servor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="50" y="720" width="180" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="HistoryAPIFallback makes every single request that doesn't match with an existing route, go back to the default app route." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="316.25" y="720" width="213.75" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Don't use Next JS, because there's a too much complex Webpack. create-mf-app create just the things you're gonna need to play with and use module federation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="720" width="220" height="200" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -5,11 +5,14 @@ import './index.scss';
 
 import Footer from './Footer';
 import Header from './Header';
+import HomeContent from './HomeContent';
 
 const App = () => (
   <div className='text-3xl mx-auto max-w-6xl'>
     <Header app={{ name: 'Home' }} />
-    <div className='my-10'>Homepage Content</div>
+    <div className='my-10'>
+      <HomeContent />
+    </div>
     <Footer />
   </div>
 );

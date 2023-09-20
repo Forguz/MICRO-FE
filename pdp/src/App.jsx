@@ -1,19 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import './index.scss';
 
-import SafeComponent from './SafeComponent';
-import Header from 'home/Header';
-import Footer from 'home/Footer';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-const App = () => (
-  <div className='text-3xl mx-auto max-w-6xl'>
-    <SafeComponent>
-      <Header />
-    </SafeComponent>
-    <div>PDP page content</div>
-    <Footer />
-  </div>
+import Root from './Root';
+import PDPContent from './PDPContent';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Root />,
+    children: [
+      {
+        path: '/products/:id',
+        element: <PDPContent />,
+      },
+    ],
+  },
+]);
+
+ReactDOM.render(
+  <RouterProvider router={router} />,
+  document.getElementById('app')
 );
-ReactDOM.render(<App />, document.getElementById('app'));
